@@ -1,0 +1,1082 @@
+{
+  "cities": [
+    {
+      "name": "adler",
+      "name_ru": "Адлер",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "almetevsk",
+      "name_ru": "Альметьевск",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "aprelevka",
+      "name_ru": "Апрелевка",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "astrahan",
+      "name_ru": "Астрахань",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "balashiha",
+      "name_ru": "Балашиха",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "barnaul",
+      "name_ru": "Барнаул",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "belgorod",
+      "name_ru": "Белгород",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "bronnitsy",
+      "name_ru": "Бронницы",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "bryansk",
+      "name_ru": "Брянск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "chekhov",
+      "name_ru": "Чехов",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "cheboksary",
+      "name_ru": "Чебоксары",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "cherepovets",
+      "name_ru": "Череповец",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "chelyabinsk",
+      "name_ru": "Челябинск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "dolgoprudnyj",
+      "name_ru": "Долгопрудный",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "domodedovo",
+      "name_ru": "Домодедово",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "dmitrov",
+      "name_ru": "Дмитров",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "dubna",
+      "name_ru": "Дубна",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "dzerzhinsk",
+      "name_ru": "Дзержинск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "dzerzhinskij",
+      "name_ru": "Дзержинский",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "ekaterinburg",
+      "name_ru": "Екатеринбург",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "gatchina",
+      "name_ru": "Гатчина",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "yegoryevsk",
+      "name_ru": "Егорьевск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "elektrostal",
+      "name_ru": "Электросталь",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "fryazino",
+      "name_ru": "Фрязино",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "gelendzhik",
+      "name_ru": "Геленджик",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "habarovsk",
+      "name_ru": "Хабаровск",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "himki",
+      "name_ru": "Химки",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "irkutsk",
+      "name_ru": "Иркутск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "ivanovo",
+      "name_ru": "Иваново",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "ivanteevka",
+      "name_ru": "Ивантеевка",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "izhevsk",
+      "name_ru": "Ижевск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "kaliningrad",
+      "name_ru": "Калининград",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kaluga",
+      "name_ru": "Калуга",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kazan",
+      "name_ru": "Казань",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kemerovo",
+      "name_ru": "Кемерово",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "kirov",
+      "name_ru": "Киров",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "kingisepp",
+      "name_ru": "Кингисепп",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "klin",
+      "name_ru": "Клин",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "korolev",
+      "name_ru": "Королёв",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kolpino",
+      "name_ru": "Колпино",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "kolomna",
+      "name_ru": "Коломна",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kostroma",
+      "name_ru": "Кострома",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "kotelniki",
+      "name_ru": "Котельники",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "krasnodar",
+      "name_ru": "Краснодар",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "krasnogorsk",
+      "name_ru": "Красногорск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "krasnoyarsk",
+      "name_ru": "Красноярск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kudrovo",
+      "name_ru": "Кудрово",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "kursk",
+      "name_ru": "Курск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "lipeck",
+      "name_ru": "Липецк",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "lobnya",
+      "name_ru": "Лобня",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "lytkarino",
+      "name_ru": "Лыткарино",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "lyubercy",
+      "name_ru": "Люберцы",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "maykop",
+      "name_ru": "Майкоп",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "makhachkala",
+      "name_ru": "Махачкала",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "msk",
+      "name_ru": "Москва",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "murino",
+      "name_ru": "Мурино",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "mytishchi",
+      "name_ru": "Мытищи",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "naro_fominsk",
+      "name_ru": "Наро-Фоминск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "naberezhnye_chelny",
+      "name_ru": "Набережные Челны",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "nizhnekamsk",
+      "name_ru": "Нижнекамск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "nizhnevartovsk",
+      "name_ru": "Нижневартовск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "nizhnij_novgorod",
+      "name_ru": "Нижний Новгород",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "novokuzheck",
+      "name_ru": "Новокузнецк",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "novorossiysk",
+      "name_ru": "Новороссийск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "novosibirsk",
+      "name_ru": "Новосибирск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "noginsk",
+      "name_ru": "Ногинск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "odincovo",
+      "name_ru": "Одинцово",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "obninsk",
+      "name_ru": "Обнинск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "orekhovo_zuyevo",
+      "name_ru": "Орехово-Зуево",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "omsk",
+      "name_ru": "Омск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "orel",
+      "name_ru": "Орел",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "orenburg",
+      "name_ru": "Оренбург",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "pavlovsky_posad",
+      "name_ru": "Павловский Посад",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "penza",
+      "name_ru": "Пенза",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "perm",
+      "name_ru": "Пермь",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "petrozavodsk",
+      "name_ru": "Петрозаводск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "podolsk",
+      "name_ru": "Подольск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "pushkin",
+      "name_ru": "Пушкин",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "pushkino",
+      "name_ru": "Пушкино",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "putilkovo",
+      "name_ru": "Путилково",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "pskov",
+      "name_ru": "Псков",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "pyatigorsk",
+      "name_ru": "Пятигорск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "ramenskoe",
+      "name_ru": "Раменское",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "reutov",
+      "name_ru": "Реутов",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "rostov_na_donu",
+      "name_ru": "Ростов-на-Дону",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "ryazan",
+      "name_ru": "Рязань",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "samara",
+      "name_ru": "Самара",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "saransk",
+      "name_ru": "Саранск",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "saratov",
+      "name_ru": "Саратов",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "sergiyev_posad",
+      "name_ru": "Сергиев Посад",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "serpukhov",
+      "name_ru": "Серпухов",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "stavropol",
+      "name_ru": "Ставрополь",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "shchelkovo",
+      "name_ru": "Щелково",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "shcherbinka",
+      "name_ru": "Щербинка",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "shushary",
+      "name_ru": "Шушары",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "smolensk",
+      "name_ru": "Смоленск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "sochi",
+      "name_ru": "Сочи",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "spb",
+      "name_ru": "Санкт-Петербург",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "surgut",
+      "name_ru": "Сургут",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "solnechnogorsk",
+      "name_ru": "Солнечногорск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "stary_oskol",
+      "name_ru": "Старый Оскол",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "sterlitamak",
+      "name_ru": "Стерлитамак",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "stupino",
+      "name_ru": "Ступино",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "taganrog",
+      "name_ru": "Таганрог",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "tambov",
+      "name_ru": "Тамбов",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "tolyatti",
+      "name_ru": "Тольятти",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "tomsk",
+      "name_ru": "Томск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "troitsk",
+      "name_ru": "Троицк",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "tver",
+      "name_ru": "Тверь",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "tula",
+      "name_ru": "Тула",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "tyumen",
+      "name_ru": "Тюмень",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "ufa",
+      "name_ru": "Уфа",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "ulyanovsk",
+      "name_ru": "Ульяновск",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "yanino",
+      "name_ru": "Янино",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "v_novgorod",
+      "name_ru": "Великий Новгород",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "voskresensk",
+      "name_ru": "Воскресенск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "vidnoe",
+      "name_ru": "Видное",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "vladimir",
+      "name_ru": "Владимир",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "vladivostok",
+      "name_ru": "Владивосток",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "volgograd",
+      "name_ru": "Волгоград",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "vologda",
+      "name_ru": "Вологда",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "voronezh",
+      "name_ru": "Воронеж",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "volzhsky",
+      "name_ru": "Волжский",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "vsevolozhsk",
+      "name_ru": "Всеволожск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "vyborg",
+      "name_ru": "Выборг",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "yaroslavl",
+      "name_ru": "Ярославль",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "yoshkar_ola",
+      "name_ru": "Йошкар-Ола",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "youzhnoe_butovo",
+      "name_ru": "Южное Бутово",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "zelenograd",
+      "name_ru": "Зеленоград",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "zheleznodorozhnyj",
+      "name_ru": "Железнодорожный",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "zhukovskij",
+      "name_ru": "Жуковский",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "zvenigorod",
+      "name_ru": "Звенигород",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "anapa",
+      "name_ru": "Анапа",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "magnitogorsk",
+      "name_ru": "Магнитогорск",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "vladikavkaz",
+      "name_ru": "Владикавказ",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "syktyvkar",
+      "name_ru": "Сыктывкар",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "nalchik",
+      "name_ru": "Нальчик",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "arhangelsk",
+      "name_ru": "Архангельск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "novyj_urengoj",
+      "name_ru": "Новый Уренгой",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "murmansk",
+      "name_ru": "Мурманск",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    },
+    {
+      "name": "hanty_mansijsk",
+      "name_ru": "Ханты-Мансийск",
+      "car": 556,
+      "bike": 445,
+      "foot": 362
+    },
+    {
+      "name": "abakan",
+      "name_ru": "Абакан",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "aksay",
+      "name_ru": "Аксай",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "armavir",
+      "name_ru": "Армавир",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "balakovo",
+      "name_ru": "Балаково",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "bataysk",
+      "name_ru": "Батайск",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "berdsk",
+      "name_ru": "Бердск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "blagovechnek",
+      "name_ru": "Благовещенск",
+      "car": 445,
+      "bike": 362,
+      "foot": 278
+    },
+    {
+      "name": "elabuga",
+      "name_ru": "Елабуга",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "essentuki",
+      "name_ru": "Ессентуки",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "kislovodsk",
+      "name_ru": "Кисловодск",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "krokovo",
+      "name_ru": "Ковров",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "kurgan",
+      "name_ru": "Курган",
+      "car": 417,
+      "bike": 334,
+      "foot": 278
+    },
+    {
+      "name": "novyj_urengoj",
+      "name_ru": "Новый Уренгой",
+      "car": 695,
+      "bike": 556,
+      "foot": 445
+    }
+  ]
+}
