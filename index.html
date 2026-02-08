@@ -469,15 +469,51 @@
     }
     .btn-primary:hover { background: var(--accent-hover); transform: translateY(-1px); }
 
-    /* Benefits carousel — без обрезки крайней карточки: справа отступ */
+    /* Benefits carousel — управление стрелками, без прокрутки колесом */
+    .benefits-carousel-container {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    @media (max-width: 767px) {
+      .benefits-carousel-container { flex-direction: column; }
+    }
+    .benefits-carousel-arrow {
+      flex-shrink: 0;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-size: 1.25rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.2s, border-color 0.2s, color 0.2s;
+    }
+    .benefits-carousel-arrow:hover {
+      background: var(--accent);
+      color: #000;
+      border-color: var(--accent);
+    }
+    @media (max-width: 767px) {
+      .benefits-carousel-arrow { display: none; }
+    }
     .benefits-carousel-wrap {
+      flex: 1;
+      min-width: 0;
       overflow-x: auto;
+      overflow-y: hidden;
       scroll-snap-type: x mandatory;
       margin: 0 -20px;
       padding: 0 20px 24px 20px;
       scrollbar-width: none;
       -webkit-overflow-scrolling: touch;
       container-type: inline-size;
+      overscroll-behavior-x: none;
     }
     .benefits-carousel-wrap::-webkit-scrollbar { display: none; }
     .benefits-grid {
@@ -860,8 +896,12 @@
     <section class="section" id="benefits">
       <div class="container">
         <h2 class="section-title">Преимущества</h2>
-        <div class="benefits-carousel-wrap">
-          <div class="benefits-grid" id="benefits-grid"></div>
+        <div class="benefits-carousel-container">
+          <button type="button" class="benefits-carousel-arrow benefits-carousel-arrow-prev" aria-label="Предыдущий">‹</button>
+          <div class="benefits-carousel-wrap" id="benefits-carousel-wrap">
+            <div class="benefits-grid" id="benefits-grid"></div>
+          </div>
+          <button type="button" class="benefits-carousel-arrow benefits-carousel-arrow-next" aria-label="Следующий">›</button>
         </div>
       </div>
     </section>
@@ -1288,24 +1328,40 @@
     }
 
     function initBenefitsCarousel() {
-      const wrap = document.querySelector('.benefits-carousel-wrap');
+      const wrap = document.getElementById('benefits-carousel-wrap') || document.querySelector('.benefits-carousel-wrap');
       const grid = document.getElementById('benefits-grid');
-      if (!wrap || !grid || window.matchMedia('(max-width: 767px)').matches) return;
-      const cards = Array.from(grid.children);
-      if (cards.length === 0) return;
-      cards.forEach(card => grid.appendChild(card.cloneNode(true)));
-      const originalWidth = wrap.scrollWidth / 2;
-      wrap.addEventListener('scroll', () => {
-        if (wrap.scrollLeft >= originalWidth - 1) {
-          wrap.scrollLeft = wrap.scrollLeft - originalWidth;
+      const btnPrev = document.querySelector('.benefits-carousel-arrow-prev');
+      const btnNext = document.querySelector('.benefits-carousel-arrow-next');
+      if (!wrap || !grid) return;
+
+      const isDesktop = !window.matchMedia('(max-width: 767px)').matches;
+      if (isDesktop) {
+        const cards = Array.from(grid.children);
+        if (cards.length > 0) {
+          cards.forEach(card => grid.appendChild(card.cloneNode(true)));
         }
-      });
-      wrap.addEventListener('wheel', (e) => {
-        if (e.deltaY !== 0) {
-          wrap.scrollLeft += e.deltaY;
-          e.preventDefault();
+        const originalWidth = wrap.scrollWidth / 2;
+        wrap.addEventListener('scroll', () => {
+          if (wrap.scrollLeft >= originalWidth - 1) {
+            wrap.scrollLeft = wrap.scrollLeft - originalWidth;
+          }
+        });
+        wrap.addEventListener('wheel', (e) => e.preventDefault(), { passive: false });
+      }
+
+      if (btnPrev && btnNext && isDesktop) {
+        const gap = 24;
+        function getStep() {
+          const first = grid.querySelector('.benefit-card');
+          return first ? first.offsetWidth + gap : 324;
         }
-      }, { passive: false });
+        btnNext.addEventListener('click', () => {
+          wrap.scrollBy({ left: getStep(), behavior: 'smooth' });
+        });
+        btnPrev.addEventListener('click', () => {
+          wrap.scrollBy({ left: -getStep(), behavior: 'smooth' });
+        });
+      }
     }
 
     document.getElementById('benefit-modal').addEventListener('click', e => {
